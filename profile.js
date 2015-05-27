@@ -13,8 +13,8 @@ function Profile(username) {
 
     profileEmitter = this;
 
-    //Connect to the API URL (http://teamtreehouse.com/username.json)
-    var request = http.get("http://teamtreehouse.com/" + username + ".json", function(response) {
+    //Connect to the API URL
+    var request = http.get("http://www.reddit.com/user/" + username + "/about.json", function(response) {
         var body = "";
 
         if (response.statusCode !== 200) {
