@@ -1,15 +1,17 @@
+var fs = require("fs");
+
+function mergeValues(values, content) {
+    // cycle over the keys
+        // replace all {{key}} with the values from the values object
+}
+
 function view(templateName, values, response) {
     // read from the template file
-    fs.readFile('./views/' + templateName + '.html', function (error, fileContents) {
-        if (error) throw error;
-        // insert values into the content
-
-
-        // write out to the response
-        response.write(fileContents);
-    });
-    
-
-
-
+    var fileContents = fs.readFileSync('./views/' + templateName + '.html');
+    // insert values into the content
+    fileContents = mergeValues(values, fileContents);
+    // write out the contents to the response
+    response.write(fileContents);
 }
+
+module.exports.view = view;
