@@ -2,7 +2,12 @@ var fs = require("fs");
 
 function mergeValues(values, content) {
     // cycle over the keys
+    for (var key in values) {
         // replace all {{key}} with the values from the values object
+        content = content.replace("{{" + key + "}}", values[key]);
+    }
+    // return mreged content
+    return content;
 }
 
 function view(templateName, values, response) {
