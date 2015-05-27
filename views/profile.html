@@ -1,12 +1,13 @@
 <div id="profile">
 
-    <img src="{{avatarUrl}}" alt="Avatar" id="avatar">
+    <p><span>{{username}}</span></p>
+    <p><span><a href="http://www.reddit.com/user/{{username}}">Profile Link</a></span></p>
 
-    <p><span>@{{username}}</span></p>
 
     <ul>
-        <li><span>{{badges}}</span> Badges earned</li>
-        <li><span>{{javascriptPoints}}</span> JavaScript points</li>
+        <li>Username created on <span>{{dateCreated}}</span></li>
+        <li><span>{{linkKarma}}</span> Link Karma earned</li>
+        <li><span>{{commentKarma}}</span> Comment Karma points</li>
         <li><a href="/">search again</a></li>
     </ul>
 
