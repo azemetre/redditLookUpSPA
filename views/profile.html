@@ -1,14 +1,17 @@
 <div id="profile">
 
-    <p><span>{{username}}</span></p>
-    <p><span><a href="http://www.reddit.com/user/{{username}}">Profile Link</a></span></p>
+    <img src="http://i.imgur.com/SaUgLT0.jpg" alt="Snoo - Reddit.com Alien" id="snoo">
 
+    <p><span>{{username}}</span></p>
 
     <ul>
-        <li>Username created on <span>{{dateCreated}}</span></li>
+        <li><span>{{account}}</span> created on <span>{{dateCreated}}</span></li>
         <li><span>{{linkKarma}}</span> Link Karma earned</li>
-        <li><span>{{commentKarma}}</span> Comment Karma points</li>
-        <li><a href="/">search again</a></li>
+        <li>Comment Karma: <span>{{commentKarma}}</span> points</li>
     </ul>
+
+    <div id="search-again">
+        <a href="/">search again</a>
+    </div>
 
 </div>
