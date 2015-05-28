@@ -25,7 +25,7 @@
             height: auto;
             max-height: 40%;
         }
-        #searchIcon, avatar {
+        #searchIcon {
             width 50%;
             border-radius: 50%;
             margin: 0 25% 0 25%;
@@ -44,10 +44,38 @@
         #username {
             margin: 20px 0 0;
         }
-        .button {
-            border-color: #5FB6E1;
-            background: #5FB6E1;
+        input.button {
+            background-color: #5FB6E1;
             color: #fff;
+            top: -2px;
+            border-bottom: 4px solid #ccc;
+            box-shadow: 0px 2px 5px 0px rgba(0,0,0,.15);
+            transition: .25s all ease;
+        }
+        .button:focus {
+            outline: 0;
+        }
+        .button:hover {
+            white-space: nowrap;
+            top: 0;
+            height: 87px;
+            border-radius: 4px;
+            position: relative;
+            border: none;
+            cursor: pointer;
+            border-bottom: 1px solid #ccc;
+            box-shadow: 0px 0px 0px 0px #B8B8B8B8;
+            border-color: #5FB6E1;
+            background: #54B8F5;
+            color: #fff;
+        }
+        .button:active {
+            top: 0px;
+            height: 87px;
+            border: 1px solid #727272;
+            background-color: #8e8e8e8e;
+            background: #2D74A9;
+            box-shadow: inset 0px 0px 4px rgba(0,0,0,.15);
         }
         #error {
             width: 100%;
@@ -66,7 +94,8 @@
             margin: -40px 0 0;
         }
         ul {
-            list-style-type: inline-block;
+            
+            list-style-type: none;
             width: 100%;
             padding: 22px 0;
             margin: 0;
