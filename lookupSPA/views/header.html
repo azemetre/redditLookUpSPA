@@ -101,12 +101,34 @@
             margin: 0;
             border-top: 1px solid #D5DDE4;
         }
-        a, a:visited {
+        a {
             color: #5FB6E1;
             text-decoration: none;
+            transition: border-style 2s ease-in-out;
+        }
+        a:hover {
+            color: #54B8F5;
+            border-color: #000;
+            border-width: 0px 0px 1px 0px;
+            border-style: solid;
+        }
+        a:visited {
+            color: #2D74A9;
+            border-color: #000;
+            border-width: 0px 0px 5px 0px;
+            border-style: solid;
         }
         span {
             color: #2C3238;
+        }
+        footer {
+            margin-top: 50px;
+            padding: 10px;
+            background-color: rgba(95,182,225,.25);
+            transition: all 1.5s ease-in-out;
+        }
+        footer:hover, footer:active {
+            background-color: rgba(95,182,225,.50);
         }
     </style>
 </head>
