@@ -20,4 +20,4 @@ Completed Goals
 
 Misc
 ----
-The tools used to create this project were <a href="http://www.sublimetext.com/">Sublime Text 3</a>, <a href="https://nodejs.org/">Node.js</a>, <a href="http://imgur.com/">Imgur</a>, and <a href="http://www.reddit.com/dev/api">Reddits API</a>.
+The tools used to create this project were <a href="http://www.sublimetext.com/">Sublime Text 3</a>, <a href="https://nodejs.org/">Node.js</a>, <a href="http://imgur.com/">Imgur</a>, and the <a href="http://www.reddit.com/dev/api">Reddit API</a>.
