@@ -3,6 +3,8 @@ liveSite/
 #logs
 logs
 *.log
+gulpfile.js
+static/
 
 # Runtime data
 pids
