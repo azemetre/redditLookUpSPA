@@ -27,7 +27,6 @@ function home(request, response) {
       
         }
     }
-  
 }
 
 // handle HTTP route GET /:username
