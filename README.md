@@ -23,4 +23,4 @@ Misc
 ----
 The tools used to create this project were <a href="http://www.sublimetext.com/">Sublime Text 3</a>, <a href="https://nodejs.org/">Node.js</a>, <a href="http://imgur.com/">Imgur</a>, and the <a href="http://www.reddit.com/dev/api">Reddit API</a>
 
-A live implementation of the site can be view at <a href="http://aaronzemetres.me/portfolio/lookupSPA/">aaronzemetres.me/portfolio/lookupSPA/</a>.
+A live implementation of the site can be view at <a href="http://aaronzemetres.me/portfolio/lookupSPA/">aaronzemetres.me/portfolio/lookupSPA/</a>
