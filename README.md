@@ -15,7 +15,7 @@ Completed Goals
 ---------------
 <ul>
     <li>Finished barebones project</li>
-    <li>Enhace UI/UX</li>
+    <li>Enhance UI/UX</li>
     <li>Implement a live version of this project</li>
 </ul>
 
